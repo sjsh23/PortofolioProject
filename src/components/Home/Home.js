@@ -6,8 +6,8 @@ function Home() {
   return (
     <section id="home" className="p-5 bg-light text-center">
       <Container>
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>Web Developer | Designer | Coder</p>
+        <h1>Hi, I'm [Satyasiddhi josh]</h1>
+        <p>Web Developer | Mobile Developer | Coder</p>
       </Container>
     </section>
   );

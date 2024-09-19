@@ -10,7 +10,7 @@ function About() {
         <Row>
           <Col md={6}>
             <p>
-              I am a web developer with experience in building modern, responsive web applications using React, JavaScript, and CSS frameworks.
+              I am a web and mobile developer with experience in building modern, responsive web applications using React, JavaScript, CSS frameworks, and Java using Android Studio.
             </p>
           </Col>
           <Col md={6}>
