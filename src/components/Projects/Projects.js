@@ -10,31 +10,38 @@ function Projects() {
         <Row>
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src="project1.jpg" />
+              <Card.Img variant="top" src="logo512.png" />
               <Card.Body>
-                <Card.Title>Project 1</Card.Title>
-                <Card.Text>Details about project 1.</Card.Text>
-                <Button variant="primary" href="#">View Project</Button>
+                <Card.Title>Finder</Card.Title>
+                <Card.Text>Finder a software engineering project that uses React js as the framework.
+                  it is a web based app that specialize in searching accommodation for uni students and office workers.
+                </Card.Text>
+                <Button variant="primary" href="https://github.com/sjsh23/Finder">View Project</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src="project2.jpg" />
+              <Card.Img variant="top" src="nextJs.png" />
               <Card.Body>
-                <Card.Title>Project 2</Card.Title>
-                <Card.Text>Details about project 2.</Card.Text>
-                <Button variant="primary" href="#">View Project</Button>
+                <Card.Title>Galaxy Cinema</Card.Title>
+                <Card.Text>Galaxy Cinema is a web based application that specialize in ordering movie tickets. 
+                  It is an Binus's IT Division advanced bootcamp group project and uses Next js framework.</Card.Text>
+                <Button variant="primary" href="https://github.com/dhirojap/cinema">View Project</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
             <Card>
-              <Card.Img variant="top" src="project3.jpg" />
+              <Card.Img variant="top" src="logo512.png" />
               <Card.Body>
-                <Card.Title>Project 3</Card.Title>
-                <Card.Text>Details about project 3.</Card.Text>
-                <Button variant="primary" href="#">View Project</Button>
+                <Card.Title>CalcWithSupport</Card.Title>
+                <Card.Text>CalcWithSupport is a web based
+                  calculator. It has a question mark button that leads to support page. It is also
+                  an Binus's IT Division advanced bootcamp individual project and uses React js framework.
+          
+                </Card.Text>
+                <Button variant="primary" href="https://github.com/sjsh23/Calc3WithSupport">View Project</Button>
               </Card.Body>
             </Card>
           </Col>
