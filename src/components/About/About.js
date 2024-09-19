@@ -14,7 +14,7 @@ function About() {
             </p>
           </Col>
           <Col md={6}>
-            <img src="profile.jpg" alt="Profile" className="img-fluid rounded-circle" />
+            <img src="/profilepicture.jpg" alt="Profile" className="img-fluid rounded-circle" style={{ maxWidth: '200px', height: 'auto'}}  />
           </Col>
         </Row>
       </Container>
