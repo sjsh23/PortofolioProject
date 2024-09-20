@@ -7,7 +7,7 @@ function Home() {
   return (
     <section id="home" className="p-5 bg-light text-center custom-heading">
       <Container>
-        <h1>Hi, I'm [Satyasiddhi josh]</h1>
+        <h1>Hi, I'm [Satyasiddhi Josh]</h1>
         <p>Web Developer | Mobile Developer | Coder</p>
       </Container>
     </section>
