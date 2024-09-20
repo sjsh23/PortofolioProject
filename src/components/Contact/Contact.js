@@ -19,7 +19,8 @@ function Contact() {
                     className="img-fluid me-2" 
                     style={{ width: '24px'}} 
                   />
-                  Email: satyasiddhi.josh@binus.ac.id</Card.Text>
+                  Email: satyasiddhi.josh@binus.ac.id
+                  </Card.Text>
                 
 
                 <Card.Text>
@@ -33,6 +34,19 @@ function Contact() {
                   Github:
                   <a href="https://github.com/sjsh23" target="_blank" rel="noopener noreferrer">
                     sjsh23
+                  </a>
+                </Card.Text>
+                <Card.Text>
+
+                  <Image 
+                    src="LinkedInLogo.png" 
+                    alt="GitHub logo" 
+                    className="img-fluid me-2" 
+                    style={{ width: '24px'}} 
+                  />
+                  LinkedIn:
+                  <a href="https://www.linkedin.com/in/satyasiddhi-josh-721916228/" target="_blank" rel="noopener noreferrer">
+                    satyasiddhi josh
                   </a>
                 </Card.Text>
                 
