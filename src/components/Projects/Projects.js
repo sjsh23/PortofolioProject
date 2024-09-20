@@ -1,10 +1,11 @@
 // src/components/Projects.js
 import React from 'react';
+import '../styling.css';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 function Projects() {
   return (
-    <section id="projects" className="p-5 bg-light">
+    <section id="projects" className="p-5 bg-light custom-heading">
       <Container>
         <h2>Projects</h2>
         <Row>

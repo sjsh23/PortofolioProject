@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import './App.css';
+import '../src/components/styling.css';
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <footer className="text-center p-4 bg-dark text-white">
+      <footer className="text-center p-4 bg-dark text-white custom-heading">
         &copy; 2024 My Portfolio
       </footer>
     </div>
