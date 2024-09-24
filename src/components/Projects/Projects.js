@@ -17,7 +17,7 @@ function Projects() {
                 <Card.Text className='justified-text'>Finder is a software engineering project that uses React js as the framework.
                   it is a web based app that specialize in searching accommodation for uni students and office workers.
                 </Card.Text>
-                <Button variant="primary" href="https://github.com/sjsh23/Finder">View Project</Button>
+                <Button variant="primary" href="https://github.com/sjsh23/Finder.-ASP.Net-.git">View Project</Button>
               </Card.Body>
             </Card>
           </Col>
