@@ -46,6 +46,20 @@ function Projects() {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={4}>
+            <Card>
+              <Card.Img variant="top" src="pngegg.png" />
+              <Card.Body>
+                <Card.Title>MakeMeUppzz</Card.Title>
+                <Card.Text className='justified-text'>MakeMeUppzz is a web based
+                  app. It uses C# ASP.Net web application framework and also using ado.net, it showcases models, entities, database CRUD,
+                  factory and repositories, and also handler
+          
+                </Card.Text>
+                <Button variant="primary" href="https://github.com/sjsh23/MakeMeUpzz.gitt">View Project</Button>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </section>
