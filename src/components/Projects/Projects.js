@@ -56,7 +56,21 @@ function Projects() {
                   factory and repositories, and also handler
           
                 </Card.Text>
-                <Button variant="primary" href="https://github.com/sjsh23/MakeMeUpzz.gitt">View Project</Button>
+                <Button variant="primary" href="https://github.com/sjsh23/MakeMeUpzz.git">View Project</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card>
+              <Card.Img variant="top" src="HTMLLogo.png" />
+              <Card.Body>
+                <Card.Title>JCIWeb</Card.Title>
+                <Card.Text className='justified-text'>JCIWe is a project for a human computer interaction class, it is a web
+                  for showcasing a convention center in indonesia, it uses basic html, css, and javascript for the app and it is
+                  responsive(fluid). It showcases the basics of building a web(HTML, Basic CSS, Javascript).
+          
+                </Card.Text>
+                <Button variant="primary" href="https://github.com/sjsh23/JCIProject.git">View Project</Button>
               </Card.Body>
             </Card>
           </Col>
