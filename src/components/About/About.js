@@ -11,7 +11,7 @@ function About() {
         <Row className="justify-content-center align-items-center">
           <Col md={6} className="justified-text">
             <p>
-              I am a student in Bina Nusantara university majoring in computer science. I specialize in web and mobile development with experience in building modern, responsive web applications using React, JavaScript, CSS frameworks, and Java using Android Studio.
+              I am a student in Bina Nusantara university majoring in computer science. I specialize in web and mobile development with experience in building modern, responsive web and mobile applications using React, JavaScript, CSS frameworks, and Java.
             </p>
           </Col>
           <Col md={6} className="text-center">
