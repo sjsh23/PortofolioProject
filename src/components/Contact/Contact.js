@@ -19,7 +19,7 @@ function Contact() {
                     className="img-fluid me-2" 
                     style={{ width: '24px'}} 
                   />
-                  Email: satyasiddhi.josh@binus.ac.id
+                  Email: joshsatyasiddhi@gmail.com
                   </Card.Text>
                 
 
@@ -49,7 +49,6 @@ function Contact() {
                     satyasiddhi josh
                   </a>
                 </Card.Text>
-                
               </Card.Body>
             </Card>
           </Col>

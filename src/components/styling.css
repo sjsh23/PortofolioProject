@@ -4,3 +4,12 @@
 .justified-text{
     text-align: justify;
 }
+.carousel-img{
+    height: 400px;
+  object-fit: contain;
+  width: 100%;
+}
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  

@@ -1,80 +1,94 @@
-// src/components/Projects.js
 import React from 'react';
 import '../styling.css';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Carousel, Button } from 'react-bootstrap';
 
 function Projects() {
   return (
-    <section id="projects" className="p-5 bg-light custom-heading">
+    <section id="projects" className="p-5 bg-dark custom-heading">
       <Container>
-        <h2>Projects</h2>
-        <Row>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src="logo512.png" />
-              <Card.Body>
-                <Card.Title>Finder</Card.Title>
-                <Card.Text className='justified-text'>Finder is a software engineering project that uses React js as the framework.
-                  it is a web based app that specialize in searching accommodation for uni students and office workers.
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/sjsh23/Finder.-ASP.Net-.git">View Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src="nextJs.png" />
-              <Card.Body>
-                <Card.Title>Galaxy Cinema</Card.Title>
-                <Card.Text className='justified-text'>Galaxy Cinema is a web based application that specialize in ordering movie tickets. 
-                  It is an Binus's IT Division advanced bootcamp group project and uses Next js framework with working backend.</Card.Text>
-                <Button variant="primary" href="https://github.com/dhirojap/cinema">View Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src="logo512.png" />
-              <Card.Body>
-                <Card.Title>CalcWithSupport</Card.Title>
-                <Card.Text className='justified-text'>CalcWithSupport is a web based
-                  calculator. It has a question mark button that leads to support page. It is also
-                  an Binus's IT Division advanced bootcamp individual project and uses React js framework.
-          
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/sjsh23/Calc3WithSupport">View Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src="pngegg.png" />
-              <Card.Body>
-                <Card.Title>MakeMeUppzz</Card.Title>
-                <Card.Text className='justified-text'>MakeMeUppzz is a web based
-                  app. It uses C# ASP.Net web application framework and also using ado.net, it showcases models, entities, database CRUD,
-                  factory and repositories, and also handler
-          
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/sjsh23/MakeMeUpzz.git">View Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4}>
-            <Card>
-              <Card.Img variant="top" src="HTMLLogo.png" />
-              <Card.Body>
-                <Card.Title>JCIWeb</Card.Title>
-                <Card.Text className='justified-text'>JCIWe is a project for a human computer interaction class, it is a web
-                  for showcasing a convention center in indonesia, it uses basic html, css, and javascript for the app and it is
-                  responsive(fluid). It showcases the basics of building a web(HTML, Basic CSS, Javascript).
-          
-                </Card.Text>
-                <Button variant="primary" href="https://github.com/sjsh23/JCIProject.git">View Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+        <h2 className="text-center mb-4 text-light text-shadow">Projects</h2>
+
+        <Carousel>
+          {/* Finder Project */}
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="logo512.png"
+              alt="Finder Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>Finder</h3>
+              <p className="justified-text text-shadow">
+                Finder is a web-based app that helps university students and office workers find accommodations. It uses React.js.
+              </p>
+              <Button variant="primary" href="https://github.com/sjsh23/Finder.-ASP.Net-.git">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* Galaxy Cinema Project */}
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="nextJs.png"
+              alt="Galaxy Cinema Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>Galaxy Cinema</h3>
+              <p className="justified-text text-shadow">
+                Galaxy Cinema is a web app for booking movie tickets. It uses Next.js and has a fully functional backend.
+              </p>
+              <Button variant="primary" href="https://github.com/dhirojap/cinema">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* CalcWithSupport Project */}
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="logo512.png"
+              alt="CalcWithSupport Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>CalcWithSupport</h3>
+              <p className="justified-text text-shadow">
+                CalcWithSupport is a web-based calculator with a support page feature. It is built using React.js.
+              </p>
+              <Button variant="primary" href="https://github.com/sjsh23/Calc3WithSupport">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* MakeMeUppzz Project */}
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="pngegg.png"
+              alt="MakeMeUppzz Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>MakeMeUppzz</h3>
+              <p className="justified-text text-shadow">
+                MakeMeUppzz is a C# ASP.Net web app using ado.net. It showcases models, entities, CRUD operations, and more.
+              </p>
+              <Button variant="primary" href="https://github.com/sjsh23/MakeMeUpzz.git">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* JCIWeb Project */}
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="HTMLLogo.png"
+              alt="JCIWeb Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>JCIWeb</h3>
+              <p className="justified-text text-shadow">
+                JCIWeb is a human-computer interaction project showcasing a convention center using HTML, CSS, and JavaScript.
+              </p>
+              <Button variant="primary" href="https://github.com/sjsh23/JCIProject.git">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
       </Container>
     </section>
   );
