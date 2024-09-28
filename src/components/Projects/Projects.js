@@ -88,6 +88,20 @@ function Projects() {
               <Button variant="primary" href="https://github.com/sjsh23/JCIProject.git">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="androidStudioLogo.png"
+              alt="JCIWeb Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>SimpleMobileCalc</h3>
+              <p className="justified-text text-shadow">
+                SimpleMobileCalc is a simple calculator that runs on android OS using Java as the language, it showcases the basics of building a mobile app  .
+              </p>
+              <Button variant="primary" href="https://github.com/sjsh23/JCIProject.git">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
         </Carousel>
       </Container>
     </section>
