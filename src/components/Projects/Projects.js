@@ -102,6 +102,20 @@ function Projects() {
               <Button variant="primary" href="https://github.com/sjsh23/MobileCalcApp.git">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="androidStudioLogo.png"
+              alt="JCIWeb Project"
+            />
+            <Carousel.Caption>
+              <h3 className='text-shadow'>TaskManagerApp</h3>
+              <p className="justified-text text-shadow">
+                TaskManagerApp is a java mobile app that helps organize tasks by adding category, deadline, task description, and also implementing simple search tasks function.
+              </p>
+              <Button variant="primary" href="https://github.com/sjsh23/TaskManagerApp.git">View Project</Button>
+            </Carousel.Caption>
+          </Carousel.Item>
         </Carousel>
       </Container>
     </section>
