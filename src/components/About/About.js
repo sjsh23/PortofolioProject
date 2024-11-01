@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
   return (
-    <section id="about" className="p-5 d-flex justify-content-center align-items-center custom-heading">
+    <section id="about" className="p-5 d-flex justify-content-center align-items-center custom-heading about-size">
       <Container>
         <h2 className="text-center mb-4">About Me</h2>
         <Row className="justify-content-center align-items-center">

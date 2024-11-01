@@ -4,7 +4,7 @@ import { Container, Carousel, Button } from 'react-bootstrap';
 
 function Projects() {
   return (
-    <section id="projects" className="p-5 bg-dark bg-gradient custom-heading">
+    <section id="projects" className="p-5 bg-dark bg-gradient custom-heading custom-size">
       <Container>
         <h2 className="text-center mb-4 text-light text-shadow">Projects</h2>
 

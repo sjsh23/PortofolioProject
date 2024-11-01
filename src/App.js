@@ -1,4 +1,4 @@
-// src/App.js
+// src/App.jsq
 import React from 'react';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';

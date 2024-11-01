@@ -5,7 +5,7 @@ import { Container, Row, Card, Col, Image } from 'react-bootstrap';
 
 function Contact() {
   return (
-    <section id="contact" className="p-5 custom-heading">
+    <section id="contact" className="p-5 custom-heading custom-size">
       <Container>
       <h2 className="text-center mb-4">Contact</h2>
         <Row className="d-flex justify-content-center">

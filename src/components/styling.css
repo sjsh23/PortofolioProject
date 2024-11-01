@@ -1,5 +1,5 @@
 .custom-heading{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open sans', sans-serif;
 }
 .justified-text{
     text-align: justify;
@@ -12,4 +12,16 @@
 .text-shadow {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  
+.home-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #f1f1f1;
+}
+.about-size{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.custom-size{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

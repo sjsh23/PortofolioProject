@@ -5,8 +5,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function Header() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='custom-heading'>
-      <Navbar.Brand href="#home" className='ms-3'>My Portfolio</Navbar.Brand>
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='custom-heading p-3'>
+      <Navbar.Brand href="#home" className='ms-5'>My Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">   
