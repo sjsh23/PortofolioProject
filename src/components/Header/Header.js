@@ -6,7 +6,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 function Header() {
   return (
     <Navbar bg="transparent" variant="light" expand="lg" sticky="top" className="custom-navbar p-3 shadow-sm">
-      <Navbar.Brand href="#home" className="ms-5 fw-bold brand-name">
+      <Navbar.Brand href="#home" className="ms-3 fw-bold brand-name">
         My Portfolio
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
