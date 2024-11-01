@@ -1,119 +1,124 @@
+// src/components/Projects.js
 import React from 'react';
 import '../styling.css';
 import { Container, Carousel, Button } from 'react-bootstrap';
 
 function Projects() {
   return (
-    <section id="projects" className="p-5 bg-dark bg-gradient custom-heading custom-size">
+    <section id="projects" className="p-5 custom-size projects-section">
       <Container>
-        <h2 className="text-center mb-4 text-light text-shadow">Projects</h2>
+        <h2 className="text-center mb-5 text-light project-heading">Projects</h2>
 
-        <Carousel>
+        <Carousel className="project-carousel">
           {/* Finder Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="logo512.png"
               alt="Finder Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>Finder</h3>
-              <p className="justified-text text-shadow">
+            <Carousel.Caption className="project-caption">
+              <h3>Finder</h3>
+              <p>
                 Finder is a web-based app that helps university students and office workers find accommodations. It uses React.js.
               </p>
-              <Button variant="primary" href="https://github.com/sjsh23/Finder.-ASP.Net-.git">View Project</Button>
+              <Button variant="light" href="https://github.com/sjsh23/Finder.-ASP.Net-.git" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
           {/* Galaxy Cinema Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="nextJs.png"
               alt="Galaxy Cinema Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>Galaxy Cinema</h3>
-              <p className="justified-text text-shadow">
+            <Carousel.Caption className="project-caption">
+              <h3>Galaxy Cinema</h3>
+              <p>
                 Galaxy Cinema is a web app for booking movie tickets. It uses Next.js and has a fully functional backend.
               </p>
-              <Button variant="primary" href="https://github.com/dhirojap/cinema">View Project</Button>
+              <Button variant="light" href="https://github.com/dhirojap/cinema" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
           {/* CalcWithSupport Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="logo512.png"
               alt="CalcWithSupport Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>CalcWithSupport</h3>
-              <p className="justified-text text-shadow">
+            <Carousel.Caption className="project-caption">
+              <h3>CalcWithSupport</h3>
+              <p>
                 CalcWithSupport is a web-based calculator with a support page feature. It is built using React.js.
               </p>
-              <Button variant="primary" href="https://github.com/sjsh23/Calc3WithSupport">View Project</Button>
+              <Button variant="light" href="https://github.com/sjsh23/Calc3WithSupport" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
           {/* MakeMeUppzz Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="pngegg.png"
               alt="MakeMeUppzz Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>MakeMeUppzz</h3>
-              <p className="justified-text text-shadow">
+            <Carousel.Caption className="project-caption">
+              <h3>MakeMeUppzz</h3>
+              <p>
                 MakeMeUppzz is a C# ASP.Net web app using ado.net. It showcases models, entities, CRUD operations, and more.
               </p>
-              <Button variant="primary" href="https://github.com/sjsh23/MakeMeUpzz.git">View Project</Button>
+              <Button variant="light" href="https://github.com/sjsh23/MakeMeUpzz.git" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
           {/* JCIWeb Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="HTMLLogo.png"
               alt="JCIWeb Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>JCIWeb</h3>
-              <p className="justified-text text-shadow">
+            <Carousel.Caption className="project-caption">
+              <h3>JCIWeb</h3>
+              <p>
                 JCIWeb is a human-computer interaction project showcasing a convention center using HTML, CSS, and JavaScript.
               </p>
-              <Button variant="primary" href="https://github.com/sjsh23/JCIProject.git">View Project</Button>
+              <Button variant="light" href="https://github.com/sjsh23/JCIProject.git" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
+
+          {/* SimpleMobileCalc Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="androidStudioLogo.png"
-              alt="JCIWeb Project"
+              alt="SimpleMobileCalc Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>SimpleMobileCalc</h3>
-              <p className="justified-text text-shadow">
-                SimpleMobileCalc is a simple calculator that runs on android OS using Java as the language, it showcases the basics of building a mobile app  .
+            <Carousel.Caption className="project-caption">
+              <h3>SimpleMobileCalc</h3>
+              <p>
+                SimpleMobileCalc is a simple calculator that runs on android OS using Java as the language, showcasing the basics of building a mobile app.
               </p>
-              <Button variant="primary" href="https://github.com/sjsh23/MobileCalcApp.git">View Project</Button>
+              <Button variant="light" href="https://github.com/sjsh23/MobileCalcApp.git" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
+
+          {/* TaskManagerApp Project */}
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="d-block w-100 carousel-img rounded shadow-lg"
               src="androidStudioLogo.png"
-              alt="JCIWeb Project"
+              alt="TaskManagerApp Project"
             />
-            <Carousel.Caption>
-              <h3 className='text-shadow'>TaskManagerApp</h3>
-              <p className="justified-text text-shadow">
-                TaskManagerApp is a java mobile app that helps organize tasks by adding category, deadline, task description, and also implementing simple search tasks function.
+            <Carousel.Caption className="project-caption">
+              <h3>TaskManagerApp</h3>
+              <p>
+                TaskManagerApp is a Java mobile app that helps organize tasks by adding category, deadline, task description, and a simple search function.
               </p>
-              <Button variant="primary" href="https://github.com/sjsh23/TaskManagerApp.git">View Project</Button>
+              <Button variant="light" href="https://github.com/sjsh23/TaskManagerApp.git" className="project-btn">View Project</Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

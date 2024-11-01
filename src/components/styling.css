@@ -13,7 +13,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 .home-section{
-  margin-top: 100px;
+  
   margin-bottom: 100px;
   background-color: #f1f1f1;
 }
@@ -25,3 +25,161 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+/* styling.css */
+
+.home-section {
+  color: #333;
+}
+
+.display-3 {
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a2e;
+}
+
+.lead {
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+/* styling.css */
+
+/* styling.css */
+
+.custom-navbar {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for a soft effect */
+  backdrop-filter: blur(10px); /* Blurs background for a modern look */
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly brighter on hover */
+}
+
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #333333; /* Neutral dark color for balance */
+}
+
+.nav-link-custom {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #555555; /* Softer color for contrast */
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #1a1a2e; /* Darker hover color for emphasis */
+  border-bottom: 2px solid #1a1a2e; /* Underline to show active link */
+}
+
+.navbar-collapse .ms-auto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* styling.css */
+
+.about-section {
+  background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding: 4rem 2rem;
+  transition: transform 0.3s ease;
+}
+
+.about-section:hover {
+  transform: scale(1.02); /* Subtle hover effect for the entire section */
+}
+
+.about-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  text-align: justify;
+  padding: 1rem;
+  background-color: #ffffffcc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  max-width: 220px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* styling.css */
+
+/* Project Section */
+.projects-section {
+  background: linear-gradient(135deg, #1e1e1e, #333);
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.project-heading {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #f8f9fa;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+.project-carousel img {
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  text-shadow: none;
+}
+
+.project-btn {
+  background-color: #6c757d; /* Match with your theme color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for a better size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.project-btn:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+    text-decoration: none; /* Remove underline */
+}
+
+
+
+
