@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Contact />
       <footer className="text-center p-4 bg-dark text-white custom-heading">
-        &copy; 2024 My Portfolio
+        &copy; 2024 Satyasiddhi Josh
       </footer>
     </div>
   );
