@@ -274,6 +274,32 @@ html {
   scrollbar-width: thin;
   scrollbar-color: rgba(116, 116, 116, 0.452) rgba(240, 242, 245, 0.3); /* Transparent thumb and track */
 }
+.project-card {
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Add rounded corners */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Slightly lift on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.carousel-img {
+  border-top-left-radius: 10px; /* Match rounded corners for images */
+  border-top-right-radius: 10px;
+}
+.project-carousel {
+  padding-bottom: 60px;
+  margin: 0 auto; /* Ensure the carousel is positioned correctly */
+}
+
+.carousel-item {
+  padding-bottom: 60px; /* Add padding at the bottom of carousel items for space */
+}
+
+
+
 
 
 
