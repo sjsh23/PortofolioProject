@@ -1,3 +1,9 @@
+/* styling.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
 .custom-heading{
     font-family: 'Open sans', sans-serif;
 }
@@ -80,16 +86,40 @@
 }
 
 .nav-link-custom {
+  position: relative;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #555555; /* Softer color for contrast */
   padding: 0.5rem 1rem;
+  margin-right: 20px;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .nav-link-custom:hover {
   color: #1a1a2e; /* Darker hover color for emphasis */
-  border-bottom: 2px solid #1a1a2e; /* Underline to show active link */
+  border-bottom: 2px solid #1a1a2e46; /* Underline to show active link */
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px; /* Position the underline just below the text */
+  height: 2px; /* Height of the underline */
+  background-color: #007bff5e; /* Customize underline color */
+  transition: width 0.3s;
+  width: 0; /* Start with 0 width */
+}
+
+/* Ensure underline is visible for active links */
+.nav-link-custom.active::after {
+  width: 100%; /* Show the underline for active links */
+}
+
+/* Ensures underline appears on hover */
+.nav-link-custom:hover::after {
+  width: 100%; /* Show the underline on hover */
 }
 
 .navbar-collapse .ms-auto {
@@ -220,6 +250,31 @@
 .about-text-bubble p {
   margin: 0; /* Remove default margin for clean styling */
 }
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(240, 242, 245, 0.3); /* Transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 123, 255, 0.359); /* Transparent thumb */
+  border-radius: 5px; /* Roundness */
+  border: 2px solid rgba(240, 242, 245, 0.3); /* Slight border for a gap effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 86, 179, 0.7); /* Darker on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(116, 116, 116, 0.452) rgba(240, 242, 245, 0.3); /* Transparent thumb and track */
+}
+
 
 
 

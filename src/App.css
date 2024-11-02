@@ -1,3 +1,10 @@
+/* styling.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .App {
   text-align: center;
 }
