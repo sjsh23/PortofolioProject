@@ -10,9 +10,9 @@ function Contact() {
       <h2 className="text-center mb-4">Contact</h2>
         <Row className="d-flex justify-content-center">
           <Col md={6}>
-            <Card className="p-4 shadow-sm">
-              <Card.Body>
-                <Card.Text>
+            <Card className="p-4 shadow-sm text-decoration-none">
+              <Card.Body className='text-decoration-none'>
+                <Card.Text className='text-decoration-none'>
                 <Image 
                     src="emailLogo.png" 
                     alt="GitHub logo" 
@@ -23,7 +23,7 @@ function Contact() {
                   </Card.Text>
                 
 
-                <Card.Text>
+                <Card.Text className='text-decoration-none'>
 
                   <Image 
                     src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
@@ -32,7 +32,7 @@ function Contact() {
                     style={{ width: '24px'}} 
                   />
                   Github:
-                  <a href="https://github.com/sjsh23" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/sjsh23" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>
                     sjsh23
                   </a>
                 </Card.Text>
@@ -45,7 +45,7 @@ function Contact() {
                     style={{ width: '24px'}} 
                   />
                   LinkedIn:
-                  <a href="https://www.linkedin.com/in/satyasiddhi-josh-721916228/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/satyasiddhi-josh-721916228/" target="_blank" rel="noopener noreferrer" className='text-decoration-none'>
                     satyasiddhi josh
                   </a>
                 </Card.Text>

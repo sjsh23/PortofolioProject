@@ -297,8 +297,10 @@ html {
 .carousel-item {
   padding-bottom: 60px; /* Add padding at the bottom of carousel items for space */
 }
-
-
+.text-decoration-none{
+  text-decoration: none;
+  
+}
 
 
 

@@ -13,7 +13,7 @@ function About() {
           className="text-center mb-5 about-title"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 3 }}
         >
           About Me
         </motion.h2>
@@ -25,7 +25,7 @@ function About() {
               className="about-text-bubble" // Apply the bubble class here
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.3 }}
+              transition={{ duration: 3, delay: 0.3 }}
             >
               <p>
                 I am a student at Bina Nusantara University majoring in Computer Science. I specialize in web and mobile development with experience in building modern, responsive web and mobile applications using React, JavaScript, CSS frameworks, and Java.
@@ -41,7 +41,7 @@ function About() {
               className="profile-img"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}
+              transition={{ duration: 3, delay: 0.5 }}
             />
           </Col>
         </Row>
